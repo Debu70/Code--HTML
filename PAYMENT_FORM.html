@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment-form</title>
+    
+<link rel="stylesheet" href="css_folder/PAYMENT_FORM.CSS">
+    <style>
+        div{
+            background-image: url('img/back.jpg') ;
+            background-repeat: repeat-xy;
+            background-size: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main-heading"><u> PAYMENT FORM</u></h1>
+        <hr>
+        <h2> <u> Contact Infomation</u></h2>
+        <hr>
+        <p><b>(* mark is mandetory)</b></p>
+        <p>Name: * <input placeholder="ENTER YOUR NAME" type="text"name="name" required></p>
+       <p>Gender :-</p>
+       <select name="card_type" id="card_type">
+        <option value="">--Select Your Gender--</option>
+        <option value="VISA">MALE</option>
+        <option value="MATERCARD">FEMALE</option>
+        <option value="RUPAY">OTHER</option></select>>
+    <p>ADDRESS :</p>
+    <textarea placeholder="ENTER YOUR ADDRESS (optional)" name="address" id="address" cols="100" rows="3"></textarea>
+    </p>
+    <p>Email: * <input placeholder="abcd00@gmail.com" type="email" name="email" id="email" ></p>
+    <p>Pincode: * </p>
+        <input placeholder="ENTER YOUR PINCODE" type="pimcode" name="pincode" id="pincode"> 
+    <hr>
+    <h2><u> Payment Information</u></h2>
+    <hr>
+    <img class="img" src="img/rupay.png" alt="" width="3%">
+    <img class="img" src="img/mastercard.jpg" alt="" width="3%" height="5%">
+    <img class="img" src="img/visa.png" alt="" width="3%">
+<p >Card Type: *
+    <div class="curser">
+    <select name="card_type" id="card_type">
+    <option value="">--Select a Card Type--</option>
+    <option value="VISA">VISA</option>
+    <option value="MATERCARD">MASTERCARD</option>
+    <option value="RUPAY">RUPAY</div></option>
+    
+</select>
+</p>
+<p>
+    Card Number: * <input placeholder="1234 5678 9000" type="number" name="card number" id="card number">
+</p>
+<p>
+    Exparation date: * <input type="date" name="exp_date" id="exp_date">
+</p>
+<p>
+    CVV: * <input placeholder="000" type="password" name="cvv" id="cvv">
+    <p>
+     <h2><u>UPI Details</u></h2>
+ </p>
+ <p>  UPI Platform :-</p>
+ <hr>
+    <img class="img" src="img/GOOGLEPAY.png" alt="Avatar" width="3%">
+    <img class="img" src="img/PAYTM.png" alt="Avatar" width="3%" height="5%">
+    <img class="img" src="img/PHONEPAY.png" alt="Avatar" width="3%">
+ <select  class="curser" name="card_type" id="card_type">
+    <option value="">--Select a UPI Type--</option>
+    <option  value="GOOGLE PAY">GOOGLE PAY</option>
+    <option value="PHONE PAY">PHONE PAY</option>
+    <option value="PAYTM">PAYTM</option>
+</select>
+   <P>UPI ID NO. :-</P>
+<TExtarea id="TEXTAREA" placeholder="ENTER YOUR MOBILE NO."></TExtarea>
+<P>YOUR NAME :-</P>
+<textarea placeholder="ENTER YOUR NAME ACCORDING TO YOUR BANK ACCOUNT" name="name" id="" cols="2" rows="2"></textarea>
+<p>Bank Name :-</p>
+<textarea  placeholder="Enter Your Bam=nk Name" name="bank name" id="" cols="2" rows="2"></textarea>
+<div class="submit">
+
+ <input type="submit" value="Pay Now">
+ 
+   </div> </div></form>
+</body>
+</html>

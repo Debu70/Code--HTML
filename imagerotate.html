@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imgrotate</title>
+    <style>
+        #rotateimg{
+            animation-name: spanning-circle;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            width: 40px;
+            height: 40px;
+        }
+
+        @-webkit-keyframes spanning-circle{
+        0%{
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transform-origin: 125% 125%;
+            transform-origin: 125% 125%;
+        }
+        100%{
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transform-origin: 125% 125%;
+            transform-origin: 125% 125%;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div id="rotateimg">
+        <img src="img/paytm.png" alt="img">
+    </div>
+</body>
+</html>
